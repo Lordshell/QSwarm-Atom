@@ -14,8 +14,7 @@
 #	# Build atom image
 #	docker build -t atom .
 #
-#	docker run -v /tmp/.X11-unix:/tmp/.X11-unix \
-#		-e DISPLAY=unix$DISPLAY atom
+#	docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY atom
 #
 
 # Base docker image
